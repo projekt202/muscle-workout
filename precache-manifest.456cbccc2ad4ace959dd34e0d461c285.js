@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b09dbb49d19b8b3ac9e8da82c587ba45",
+    "revision": "9d85bd64e24050c404e0ee1729838606",
     "url": "/muscle-workout/index.html"
   },
   {
-    "revision": "34bf4e32145da8802de6",
+    "revision": "031a2e9ffe38c8dc216a",
     "url": "/muscle-workout/static/css/main.62ea6ec5.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/muscle-workout/static/js/2.b2fb8894.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "34bf4e32145da8802de6",
-    "url": "/muscle-workout/static/js/main.67f3a045.chunk.js"
+    "revision": "031a2e9ffe38c8dc216a",
+    "url": "/muscle-workout/static/js/main.6b2ad011.chunk.js"
   },
   {
     "revision": "711e3137d631bbd80be4",
