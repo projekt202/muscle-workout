@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/muscle-workout/static/css/main.62ea6ec5.chunk.css",
-    "main.js": "/muscle-workout/static/js/main.ca5941b2.chunk.js",
-    "main.js.map": "/muscle-workout/static/js/main.ca5941b2.chunk.js.map",
-    "runtime-main.js": "/muscle-workout/static/js/runtime-main.775dabf5.js",
-    "runtime-main.js.map": "/muscle-workout/static/js/runtime-main.775dabf5.js.map",
-    "static/js/2.b2fb8894.chunk.js": "/muscle-workout/static/js/2.b2fb8894.chunk.js",
-    "static/js/2.b2fb8894.chunk.js.map": "/muscle-workout/static/js/2.b2fb8894.chunk.js.map",
-    "index.html": "/muscle-workout/index.html",
-    "precache-manifest.57b4d361df7d64b532186e1f472949be.js": "/muscle-workout/precache-manifest.57b4d361df7d64b532186e1f472949be.js",
-    "service-worker.js": "/muscle-workout/service-worker.js",
-    "static/css/main.62ea6ec5.chunk.css.map": "/muscle-workout/static/css/main.62ea6ec5.chunk.css.map",
-    "static/js/2.b2fb8894.chunk.js.LICENSE.txt": "/muscle-workout/static/js/2.b2fb8894.chunk.js.LICENSE.txt"
+    "main.css": "https://daituzhang.github.io/muscle-workout/static/css/main.62ea6ec5.chunk.css",
+    "main.js": "https://daituzhang.github.io/muscle-workout/static/js/main.6c769474.chunk.js",
+    "main.js.map": "https://daituzhang.github.io/muscle-workout/static/js/main.6c769474.chunk.js.map",
+    "runtime-main.js": "https://daituzhang.github.io/muscle-workout/static/js/runtime-main.21322297.js",
+    "runtime-main.js.map": "https://daituzhang.github.io/muscle-workout/static/js/runtime-main.21322297.js.map",
+    "static/js/2.b2fb8894.chunk.js": "https://daituzhang.github.io/muscle-workout/static/js/2.b2fb8894.chunk.js",
+    "static/js/2.b2fb8894.chunk.js.map": "https://daituzhang.github.io/muscle-workout/static/js/2.b2fb8894.chunk.js.map",
+    "index.html": "https://daituzhang.github.io/muscle-workout/index.html",
+    "precache-manifest.63372096c6849158ced424d2f2f5975f.js": "https://daituzhang.github.io/muscle-workout/precache-manifest.63372096c6849158ced424d2f2f5975f.js",
+    "service-worker.js": "https://daituzhang.github.io/muscle-workout/service-worker.js",
+    "static/css/main.62ea6ec5.chunk.css.map": "https://daituzhang.github.io/muscle-workout/static/css/main.62ea6ec5.chunk.css.map",
+    "static/js/2.b2fb8894.chunk.js.LICENSE.txt": "https://daituzhang.github.io/muscle-workout/static/js/2.b2fb8894.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.775dabf5.js",
+    "static/js/runtime-main.21322297.js",
     "static/js/2.b2fb8894.chunk.js",
     "static/css/main.62ea6ec5.chunk.css",
-    "static/js/main.ca5941b2.chunk.js"
+    "static/js/main.6c769474.chunk.js"
   ]
 }
