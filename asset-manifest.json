@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/muscle-workout/static/css/main.62ea6ec5.chunk.css",
-    "main.js": "/muscle-workout/static/js/main.6f6e6dca.chunk.js",
-    "main.js.map": "/muscle-workout/static/js/main.6f6e6dca.chunk.js.map",
+    "main.js": "/muscle-workout/static/js/main.44d6fdfa.chunk.js",
+    "main.js.map": "/muscle-workout/static/js/main.44d6fdfa.chunk.js.map",
     "runtime-main.js": "/muscle-workout/static/js/runtime-main.775dabf5.js",
     "runtime-main.js.map": "/muscle-workout/static/js/runtime-main.775dabf5.js.map",
     "static/js/2.b2fb8894.chunk.js": "/muscle-workout/static/js/2.b2fb8894.chunk.js",
     "static/js/2.b2fb8894.chunk.js.map": "/muscle-workout/static/js/2.b2fb8894.chunk.js.map",
     "index.html": "/muscle-workout/index.html",
-    "precache-manifest.dba03cd5281099cf90d974276f900a04.js": "/muscle-workout/precache-manifest.dba03cd5281099cf90d974276f900a04.js",
+    "precache-manifest.b3fdc895edb14b2adaf148072a2381c2.js": "/muscle-workout/precache-manifest.b3fdc895edb14b2adaf148072a2381c2.js",
     "service-worker.js": "/muscle-workout/service-worker.js",
     "static/css/main.62ea6ec5.chunk.css.map": "/muscle-workout/static/css/main.62ea6ec5.chunk.css.map",
     "static/js/2.b2fb8894.chunk.js.LICENSE.txt": "/muscle-workout/static/js/2.b2fb8894.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.775dabf5.js",
     "static/js/2.b2fb8894.chunk.js",
     "static/css/main.62ea6ec5.chunk.css",
-    "static/js/main.6f6e6dca.chunk.js"
+    "static/js/main.44d6fdfa.chunk.js"
   ]
 }
