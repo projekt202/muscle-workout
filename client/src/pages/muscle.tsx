@@ -31,7 +31,8 @@ class MusclePage extends Component<MusclePageProps, MusclePageState> {
           <BodyImage {...{muscleId: this.state.muscleId, onMuscleClick: this.onMuscleClick}}></BodyImage>
         </Grid>
         <Grid item xs={12} sm={12} md={6}>
-          <MuscleDetail  {... {muscleId: this.state.muscleId}} />
+          {this.state.muscleId && <MuscleDetail  {... {muscleId: this.state.muscleId}} />}
+          {!this.state.muscleId && <h2>Please select a muscle to start</h2> }
         </Grid>
       </Grid>
     )

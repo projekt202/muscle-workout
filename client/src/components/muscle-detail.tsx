@@ -41,7 +41,6 @@ const MuscleDetail: React.FC<MuscleId> = ({muscleId}) => {
   
   let videoDom;
 
-  if(!muscleId) return <h2>Please select a muscle to start</h2>;
   if (loading) return <p>Loading...</p>;
   if (error) return <p>ERROR: {error.message}</p>;
   if (!data || !data.muscle) return <p>Not found</p>;

@@ -9,7 +9,7 @@ import VideoPage from './pages/video';
 
 export default function Routing() {
   return (
-    <Router>
+    <Router basename={process.env.REACT_APP_PUBLIC_URL}>
       <Switch>
         <Route exact path="/">
           <MusclePage />
