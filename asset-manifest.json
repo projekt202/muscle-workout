@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/muscle-workout/static/css/main.62ea6ec5.chunk.css",
+    "main.js": "/muscle-workout/static/js/main.ca5941b2.chunk.js",
+    "main.js.map": "/muscle-workout/static/js/main.ca5941b2.chunk.js.map",
+    "runtime-main.js": "/muscle-workout/static/js/runtime-main.775dabf5.js",
+    "runtime-main.js.map": "/muscle-workout/static/js/runtime-main.775dabf5.js.map",
+    "static/js/2.b2fb8894.chunk.js": "/muscle-workout/static/js/2.b2fb8894.chunk.js",
+    "static/js/2.b2fb8894.chunk.js.map": "/muscle-workout/static/js/2.b2fb8894.chunk.js.map",
+    "index.html": "/muscle-workout/index.html",
+    "precache-manifest.57b4d361df7d64b532186e1f472949be.js": "/muscle-workout/precache-manifest.57b4d361df7d64b532186e1f472949be.js",
+    "service-worker.js": "/muscle-workout/service-worker.js",
+    "static/css/main.62ea6ec5.chunk.css.map": "/muscle-workout/static/css/main.62ea6ec5.chunk.css.map",
+    "static/js/2.b2fb8894.chunk.js.LICENSE.txt": "/muscle-workout/static/js/2.b2fb8894.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.775dabf5.js",
+    "static/js/2.b2fb8894.chunk.js",
+    "static/css/main.62ea6ec5.chunk.css",
+    "static/js/main.ca5941b2.chunk.js"
+  ]
+}
