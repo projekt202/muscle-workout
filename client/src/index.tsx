@@ -11,7 +11,6 @@ const client = new ApolloClient({
   uri: process.env.REACT_APP_API,
 });
 
-
   const App = () => (
     <ApolloProvider client={client}>
       <Routing />

@@ -10,65 +10,65 @@ const BodyImage: React.FC<BodyImageProps> = ({muscleId, onMuscleClick}) => {
 
   return (
     <svg version="1.1" id="Map" className="body-image" viewBox="0 0 578 538">
-    <polygon onClick={()=>onMuscleClick(3)} className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
+    <polygon className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
       id="Left_Pec_Mayoris" points="144,116,142,149,159,156,183,150,190,130,169,116" />
-    <polygon onClick={()=>onMuscleClick(3)} className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
+    <polygon className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
       id="Right_Pec_Mayoris" points="90,128,94,150,117,156,135,149,134,117,109,117" />
-    <polygon onClick={()=>onMuscleClick(3)} className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
+    <polygon className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
       id="Left_Rectus_Abdominis" points="155,159,159,171,160,205,160,241,155,255,152,269,143,278,142,221,141,179,142,154" />
-    <polygon onClick={()=>onMuscleClick(3)} className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
+    <polygon className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
       id="Left_Oblique" points="185,169,182,154,161,160,164,171,165,218,178,207,180,185,182" />
-    <polygon onClick={()=>onMuscleClick(3)} className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
+    <polygon className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
       id="Right_Oblique" points="100,206,98,190,93,169,96,154,117,159,113,169,113,219" />
     <polygon onClick={()=>onMuscleClick(1)} className={"body-piece " + (muscleId === 1 ? 'body-piece_active' : '')}
       id="Right_Biceps_Brachii_Long_Head" points="58,181,61,189,73,176,88,146,85,135,67,151" />
-    <polygon onClick={()=>onMuscleClick(3)} className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
+    <polygon className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
       id="Left_Neck" points="153,72,141,96,141,110,168,112,190,124,187,104,172,100,160,89" />
-    <polygon onClick={()=>onMuscleClick(3)} className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
+    <polygon className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
       id="Right_Neck" points="88,124,91,105,106,100,118,88,126,74,137,97,136,110,110,111" />
-    <polygon onClick={()=>onMuscleClick(3)} className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
+    <polygon className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
       id="Left_Deltoids_Front" points="209,144,212,131,211,115,203,107,191,103,194,119,192,130" />
-    <polygon onClick={()=>onMuscleClick(3)} className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
+    <polygon className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
       id="Right_Deltoids_Front" points="86,130,69,144,66,131,67,114,77,105,87,105,83,120" />
-    <polygon onClick={()=>onMuscleClick(3)} className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
+    <polygon className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
       id="Head_Front" points="121,21,115,43,120,62,130,71,139,76,151,69,158,61,162,39,157,20,139,14" />
-    <polygon onClick={()=>onMuscleClick(3)} className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
+    <polygon className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
       id="GROINS" points="146,284,150,320,164,284,169,259,176,245,164,241,156,270" />
-    <polygon onClick={()=>onMuscleClick(3)} className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
+    <polygon className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
       id="GROINS" points="134,285,127,321,120,298,116,291,114,277,110,265,102,244,114,240,119,257,124,272" />
-    <polygon onClick={()=>onMuscleClick(3)} className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
+    <polygon className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
       id="QUADS" points="102,256,108,279,108,327,101,350,93,339,89,308,86,287,89,261,96,246" />
-    <polygon onClick={()=>onMuscleClick(3)} className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
+    <polygon className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
       id="QUADS" points="112,331,111,289,118,304,126,331,122,345,115,372,106,373,104,357" />
-    <polygon onClick={()=>onMuscleClick(3)} className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
+    <polygon className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
       id="Right_Knee_Front" points="100,357,102,365,104,375,106,384,103,398,90,398,84,388,84,375,91,367" />
-    <polygon onClick={()=>onMuscleClick(3)} className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
+    <polygon className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
       id="Left_Tibialis_Anterior" points="192,407,197,390,205,409,212,425,209,474,212,493,200,493" />
-    <polygon onClick={()=>onMuscleClick(3)} className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
+    <polygon className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
       id="Left_Shin" points="195,492,188,404,177,402,174,412,174,419,178,448" />
-    <polygon onClick={()=>onMuscleClick(3)} className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
+    <polygon className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
       id="Right_Shin" points="104,402,105,412,105,423,103,436,103,447,96,460,92,473,83,491,84,474,86,456,87,444,88,430,90,416,91,403" />
-    <polygon onClick={()=>onMuscleClick(3)} className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
+    <polygon className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
       id="Right_Tibialis_Anterior" points="78,491,85,418,86,407,81,392,78,400,72,410,68,425,71,475,68,493" />
-    <polygon onClick={()=>onMuscleClick(3)} className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
+    <polygon className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
       id="Right_Brachioradialis" points="32,231,42,198,53,186,57,196,64,194,28,253,17,259" />
-    <polygon onClick={()=>onMuscleClick(3)} className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
+    <polygon className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
       id="QUADS" points="97,353,82,371,80,349,80,326,83,294,89,341" />
-    <polygon onClick={()=>onMuscleClick(3)} className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
+    <polygon className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
       id="Left_Knee_Front" points="178,357,194,376,194,387,188,399,176,398,171,384" />
-    <polygon onClick={()=>onMuscleClick(3)} className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
+    <polygon className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
       id="QUADS" points="193,291,198,318,198,358,195,371,180,353,189,341" />
-    <polygon onClick={()=>onMuscleClick(3)} className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
+    <polygon className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
       id="QUADS" points="172,273,175,259,181,246,189,262,191,288,184,340,177,351,170,329,169,287,190" />
-    <polygon onClick={()=>onMuscleClick(3)} className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
+    <polygon className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
       id="QUADS" points="163,371,153,330,166,293,167,333,174,356,171,373,171" />
-    <polygon onClick={()=>onMuscleClick(3)} className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
+    <polygon className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
       id="Right_Rectus_Abdominis" points="124,158,136,154,137,179,136,221,135,277,126,268,117,238,117,206,118,172" />
-    <polygon onClick={()=>onMuscleClick(3)} className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
+    <polygon className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
       id="Left_Brachioradialis" points="224,185,221,194,213,193,250,255,262,260,246,233,237,201,186" />
     <polygon onClick={()=>onMuscleClick(1)} className={"body-piece " + (muscleId === 1 ? 'body-piece_active' : '')}
       id="Left_Biceps_Brachii_Short_Head" points="187,150,187,165,203,192,207,186,202,179" />
-    <polygon onClick={()=>onMuscleClick(3)} className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
+    <polygon className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
       id="Left_Flexor_Digitorum" points="207,191,207,204,214,220,226,234,243,262,249,258" />
     <polygon onClick={()=>onMuscleClick(1)} className={"body-piece " + (muscleId === 1 ? 'body-piece_active' : '')}
       id="Left_Biceps_Brachii_Long_Head" points="192,135,189,148,204,176,217,190,220,183,210,150" />
