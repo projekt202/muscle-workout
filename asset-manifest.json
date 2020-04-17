@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/muscle-workout/static/css/main.62ea6ec5.chunk.css",
-    "main.js": "/muscle-workout/static/js/main.7a1e4dfa.chunk.js",
-    "main.js.map": "/muscle-workout/static/js/main.7a1e4dfa.chunk.js.map",
+    "main.css": "/muscle-workout/static/css/main.c0411182.chunk.css",
+    "main.js": "/muscle-workout/static/js/main.a495c4f6.chunk.js",
+    "main.js.map": "/muscle-workout/static/js/main.a495c4f6.chunk.js.map",
     "runtime-main.js": "/muscle-workout/static/js/runtime-main.775dabf5.js",
     "runtime-main.js.map": "/muscle-workout/static/js/runtime-main.775dabf5.js.map",
-    "static/js/2.2b0e554f.chunk.js": "/muscle-workout/static/js/2.2b0e554f.chunk.js",
-    "static/js/2.2b0e554f.chunk.js.map": "/muscle-workout/static/js/2.2b0e554f.chunk.js.map",
+    "static/js/2.bd8aeb06.chunk.js": "/muscle-workout/static/js/2.bd8aeb06.chunk.js",
+    "static/js/2.bd8aeb06.chunk.js.map": "/muscle-workout/static/js/2.bd8aeb06.chunk.js.map",
     "index.html": "/muscle-workout/index.html",
-    "precache-manifest.c47fb32b843d9f092db305aa29335e5e.js": "/muscle-workout/precache-manifest.c47fb32b843d9f092db305aa29335e5e.js",
+    "precache-manifest.a4e69c90a593a269d3464753e88868e0.js": "/muscle-workout/precache-manifest.a4e69c90a593a269d3464753e88868e0.js",
     "service-worker.js": "/muscle-workout/service-worker.js",
-    "static/css/main.62ea6ec5.chunk.css.map": "/muscle-workout/static/css/main.62ea6ec5.chunk.css.map",
-    "static/js/2.2b0e554f.chunk.js.LICENSE.txt": "/muscle-workout/static/js/2.2b0e554f.chunk.js.LICENSE.txt"
+    "static/css/main.c0411182.chunk.css.map": "/muscle-workout/static/css/main.c0411182.chunk.css.map",
+    "static/js/2.bd8aeb06.chunk.js.LICENSE.txt": "/muscle-workout/static/js/2.bd8aeb06.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.775dabf5.js",
-    "static/js/2.2b0e554f.chunk.js",
-    "static/css/main.62ea6ec5.chunk.css",
-    "static/js/main.7a1e4dfa.chunk.js"
+    "static/js/2.bd8aeb06.chunk.js",
+    "static/css/main.c0411182.chunk.css",
+    "static/js/main.a495c4f6.chunk.js"
   ]
 }
