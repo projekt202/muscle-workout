@@ -16,15 +16,12 @@ const knexConfig = {
 const server = new ApolloServer({
   typeDefs,
   resolvers,
-  context: ({ event, context }) => ({
-    headers: event.headers,
-    functionName: context.functionName,
-    event,
-    context,
-  }),
   dataSources: () => ({ 
     muscleDatabase: new muscleDatabase(knexConfig)
-  })
+  }),
+  playground: {
+    endpoint: "/dev/graphql"
+  }
 });
 
 exports.graphqlHandler = server.createHandler({

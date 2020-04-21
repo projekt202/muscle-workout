@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { MuscleDetail, BodyImage } from '../components'; 
+import { MuscleDetail, BodyImage, AddMuscleModal } from '../components'; 
 import Grid from '@material-ui/core/Grid';
 
 interface MusclePageProps {}
@@ -26,11 +26,12 @@ class MusclePage extends Component<MusclePageProps, MusclePageState> {
 
   render() {
     return (
-      <Grid container spacing={2} className="muscle-page-container">
-        <Grid item xs={12} sm={12} md={6}> 
+      <Grid container className="muscle-page-container">
+        <Grid item xs={12} sm={12} md={6} classes={{ root: 'body-image-container' }}> 
+          <AddMuscleModal></AddMuscleModal>
           <BodyImage {...{muscleId: this.state.muscleId, onMuscleClick: this.onMuscleClick}}></BodyImage>
         </Grid>
-        <Grid item xs={12} sm={12} md={6}>
+        <Grid item xs={12} sm={12} md={6} classes={{ root: 'muscle-detail-container' }}>
           {this.state.muscleId && <MuscleDetail  {... {muscleId: this.state.muscleId}} />}
           {!this.state.muscleId && <h2>Please select a muscle to start</h2> }
         </Grid>

@@ -23,6 +23,21 @@ const typeDefs = gql`
     videos: [Video]!
     video(id: ID!): Video 
   }
+
+  type InsertMuscleResponse {
+    success: Boolean!
+    message: String
+    muscle: [Muscle]
+  }
+
+  type Mutation {
+    insertMuscle(
+      id: ID!,
+      name: String,
+      description: String
+    ): Muscle
+  }
+  
 `;
 
 

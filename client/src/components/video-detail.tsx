@@ -43,7 +43,7 @@ const VideoDetail: React.FC<VideoId> = ({videoId}) => {
     <Fragment>
       <h1>{ data.video.name }</h1>
       <p>{ data.video.description }</p>
-      <iframe title={data.video.name} width="420" height="315"
+      <iframe title={data.video.name} width="576" height="315"
         src={ data.video.videoLink }>
       </iframe>
     </Fragment>

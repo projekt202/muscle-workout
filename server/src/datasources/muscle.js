@@ -30,6 +30,32 @@ class MuscleDatabase extends SQLDataSource {
         return this.videoReducer(results);
       });
   }
+  insertMuscle(id, name, description) {
+    // const raw = 'insert into muscles (id, name, description) values (' +
+    // id + ',"' + name + '","' + description + '") on duplicate key update name = "' + 
+    // name + '", description = "' + description + '"';
+
+    // return this.knex.raw(raw).then(results => {
+    //   console.log(results);
+    //   return results;
+    // });    
+    return this.knex('muscles')
+      .returning('id', 'name', 'description')
+      .insert(
+        { 
+          id: id,
+          name: name,
+          description: description
+        }
+      ).then(results => {
+          console.log(results);
+          return {
+            id: results[0],
+            name: name,
+            description: description
+          };
+        });    
+  }
   
   muscleReducer(muscles) {
     if(muscles.length > 0) {

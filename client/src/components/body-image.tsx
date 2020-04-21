@@ -22,7 +22,7 @@ const BodyImage: React.FC<BodyImageProps> = ({muscleId, onMuscleClick}) => {
       id="Right_Oblique" points="100,206,98,190,93,169,96,154,117,159,113,169,113,219" />
     <polygon onClick={()=>onMuscleClick(1)} className={"body-piece " + (muscleId === 1 ? 'body-piece_active' : '')}
       id="Right_Biceps_Brachii_Long_Head" points="58,181,61,189,73,176,88,146,85,135,67,151" />
-    <polygon className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
+    <polygon onClick={()=>onMuscleClick(7)} className={"body-piece " + (muscleId === 7 ? 'body-piece_active' : '')}
       id="Left_Neck" points="153,72,141,96,141,110,168,112,190,124,187,104,172,100,160,89" />
     <polygon className={"body-piece " + (muscleId === 3 ? 'body-piece_active' : '')}
       id="Right_Neck" points="88,124,91,105,106,100,118,88,126,74,137,97,136,110,110,111" />

@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { useQuery } from '@apollo/react-hooks';
 import gql from 'graphql-tag';
 
@@ -41,25 +41,25 @@ const MuscleDetail: React.FC<MuscleId> = ({muscleId}) => {
   
   let videoDom;
 
-  if (loading) return <p>Loading...</p>;
-  if (error) return <p>ERROR: {error.message}</p>;
-  if (!data || !data.muscle) return <p>Not found</p>;
+  if (loading) return <h2 className="fade-in">Loading...</h2>;
+  if (error) return <h2 className="fade-in">ERROR: {error.message}</h2>;
+  if (!data || !data.muscle) return <h2 className="fade-in">Not found</h2>;
   if (data.muscle && data.muscle.videos) {
     videoDom = 
     <div className="videos-list">
-      <p><b>Videos</b></p>
+      <h4><b>Videos</b></h4>
       {data.muscle.videos.map((value) => {
-        return <VideoMeta {...value}></VideoMeta>
+        return <VideoMeta {...value} key={value.id}></VideoMeta>
       })}
     </div>
   }
 
   return (
-    <Fragment>
+    <div className="muscle-detail">
       <h2>{ data.muscle.name }</h2>
       <p>{ data.muscle.description}</p>
       {videoDom}
-    </Fragment>
+    </div>
   )
 }
 
