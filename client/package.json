@@ -16,7 +16,7 @@
     "apollo-boost": "^0.4.7",
     "gh-pages": "^2.2.0",
     "graphql": "^15.0.0",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-redux": "^7.2.0",
